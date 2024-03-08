@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 import Pagination from "react-js-pagination";
 import HomeBackV from "./layouts/HomeBackV";
 import HomeCarousel from "./layouts/HomeCarousel";
-import HomeRelatedV from "./layouts/HomeRelatedV";
+// import HomeRelatedV from "./layouts/HomeRelatedV";
 import HomeOffer from "./layouts/HomeOffer";
 import ServiceCard from "./layouts/ServiceCard";
 
@@ -312,7 +312,7 @@ export default function Home() {
           </>
         )}
       </Fragment>
-      <HomeRelatedV />
+      {/* <HomeRelatedV /> */}
     </>
   );
 }

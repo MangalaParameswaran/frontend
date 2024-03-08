@@ -808,8 +808,11 @@ ul.CTAs a {
   }
 }
 
-
-
+/* //BG-VIDEO */
+.bg-video video{
+  height: 50vh !important;
+  width: 100% !important;
+}
 
 
 
