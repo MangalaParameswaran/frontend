@@ -1,8 +1,6 @@
 <h1 style:text-align:center>SpecialPerson (Prosthetic E-Commerce App)</h1>
 Welcome to our Prosthetic E-Commerce App! This application enables users to explore and purchase prosthetic products conveniently online. Below, you'll find an overview of the project structure, dependencies, and how to get started with the application.
 
-<h3>Live Demo</h3>
-Check out our live demo here <a href="https://frontend-sigma-tawny.vercel.app/'>Click here</a>
 
 <h3>Technologies Used</h3>
 React.js: A popular JavaScript library for building user interfaces.
