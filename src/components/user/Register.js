@@ -3,6 +3,7 @@ import {useDispatch, useSelector } from 'react-redux'
 import { register, clearAuthError } from '../../actions/userActions'
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
+import avatars from '../../../src/assets/default_avatar.png'
 
 export default function Register() {
     const [userData, setUserData] = useState({
@@ -11,7 +12,7 @@ export default function Register() {
         password: ""
     });
     const [avatar, setAvatar] = useState("");
-    const [avatarPreview, setAvatarPreview] = useState("/images/default_avatar.png");
+    const [avatarPreview, setAvatarPreview] = useState(`${avatars}`);
     const dispatch = useDispatch();
     const navigate = useNavigate();
     const { loading, error, isAuthenticated } = useSelector(state => state.authState)
