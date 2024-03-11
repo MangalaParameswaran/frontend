@@ -111,7 +111,7 @@ export const deleteProduct  =  id => async (dispatch) => {
 
     try {  
         dispatch(deleteProductRequest()) 
-        await axios.delete(`/api/v1/admin/product/${id}`,
+        await axios.delete(`https://backend-h5vo.onrender.com/api/v1/admin/product/${id}`,
         {
             headers:{
                 authorization:localStorage.getItem('token')
@@ -130,7 +130,7 @@ export const updateProduct  =  (id, productData) => async (dispatch) => {
 
     try {  
         dispatch(updateProductRequest()) 
-        const { data }  =  await axios.put(`/api/v1/admin/product/${id}`, productData,
+        const { data }  =  await axios.put(`https://backend-h5vo.onrender.com/api/v1/admin/product/${id}`, productData,
         
         {
             headers:{
@@ -150,7 +150,7 @@ export const getReviews =  id => async (dispatch) => {
 
     try {  
         dispatch(reviewsRequest()) 
-        const { data }  =  await axios.get(`/api/v1/admin/reviews`,{params: {id}},
+        const { data }  =  await axios.get(`https://backend-h5vo.onrender.com/api/v1/admin/reviews`,{params: {id}},
         {
             headers:{
                 authorization:localStorage.getItem('token')
@@ -169,7 +169,7 @@ export const deleteReview =  (productId, id) => async (dispatch) => {
 
     try {  
         dispatch(deleteReviewRequest()) 
-        await axios.delete(`/api/v1/admin/review`,{params: {productId, id}},
+        await axios.delete(`https://backend-h5vo.onrender.com/api/v1/admin/review`,{params: {productId, id}},
         {
             headers:{
                 authorization:localStorage.getItem('token')
