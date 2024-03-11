@@ -20,7 +20,8 @@ export default function ProductList() {
                 {
                     label: 'ID',
                     field: 'id',
-                    sort: 'asc'
+                    sort: 'asc',
+                    className: 'desktop-only',
                 },
                 {
                     label: 'Name',

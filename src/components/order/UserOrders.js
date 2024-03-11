@@ -19,7 +19,9 @@ export default function UserOrders () {
                 {
                     label: "Order ID",
                     field: 'id',
-                    sort: "asc"
+                    sort: "asc",
+                    className: 'desktop-only', 
+
                 },
                 {
                     label: "Quantity",

@@ -20,7 +20,8 @@ export default function UserList() {
                 {
                     label: 'ID',
                     field: 'id',
-                    sort: 'asc'
+                    sort: 'asc',
+                    className: 'desktop-only', 
                 },
                 {
                     label: 'Name',

@@ -19,7 +19,8 @@ export default function ReviewList() {
                 {
                     label: 'ID',
                     field: 'id',
-                    sort: 'asc'
+                    sort: 'asc',
+                    className: 'desktop-only', 
                 },
                 {
                     label: 'Rating',

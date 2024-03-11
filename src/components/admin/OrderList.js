@@ -20,10 +20,11 @@ export default function OrderList() {
                 {
                     label: 'ID',
                     field: 'id',
-                    sort: 'asc'
+                    sort: 'asc',
+                    className: 'desktop-only', 
                 },
                 {
-                    label: 'Number of Items',
+                    label: 'Quantity',
                     field: 'noOfItems',
                     sort: 'asc'
                 },
