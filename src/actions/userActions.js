@@ -47,6 +47,8 @@ export const login = (email, password) => async (dispatch) => {
         try {
             dispatch(loginRequest())
             const { data }  = await axios.post(`https://backend-h5vo.onrender.com/api/v1/login`,{email,password});
+            console.log(data);
+            localStorage.setItem('token', data.token)
             dispatch(loginSuccess(data))
         } catch (error) {
             dispatch(loginFail(error.response.data.message))
