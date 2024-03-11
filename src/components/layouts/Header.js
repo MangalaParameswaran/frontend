@@ -6,7 +6,7 @@ import {useDispatch, useSelector} from 'react-redux';
 // import {DropdownButton, Dropdown, Image} from 'react-bootstrap';
 import { logout } from '../../actions/userActions';
 import image from '../../assets/Logo.jpg'
-
+import avatars from '../../assets/default_avatar.png'
 
 export default function Header () {
     const { isAuthenticated, user } = useSelector(state => state.authState);
@@ -31,7 +31,7 @@ export default function Header () {
         <Nav>
           {isAuthenticated ? (
             <NavDropdown title={<>
-              <img width="40px" height='40px' src={user.avatar ?? './images/default_avatar.png'} style={{ borderRadius: '100px' }} alt="user avatar" /> &nbsp;
+              <img width="40px" height='40px' src={user.avatar ?? avatars} style={{ borderRadius: '100px' }} alt="user avatar" /> &nbsp;
               <span className='text-light'>{user.name}</span>
             </>} id="basic-nav-dropdown">
               {user.role === 'admin' && <NavDropdown.Item onClick={() => { navigate('admin/dashboard'); }}>Dashboard</NavDropdown.Item>}
