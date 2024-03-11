@@ -56,8 +56,8 @@ export const createReview = reviewData => async (dispatch) => {
     try {  
         dispatch(createReviewRequest()) 
         const config = {
-            headers : {
-                'Content-type': 'application/json'
+            headers:{
+                authorization: localStorage.getItem('token')
             }
         }
         const { data }  =  await axios.put(`https://backend-h5vo.onrender.com/api/v1/review`,reviewData, config);
