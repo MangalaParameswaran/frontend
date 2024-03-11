@@ -241,12 +241,7 @@ export const updateUser = (id, formData) => async (dispatch) => {
 
     try {
         dispatch(updateUserRequest())
-        const config = {
-                headers:{
-                    authorization: localStorage.getItem('token')
-                }
-        }
-        await axios.put(`https://backend-h5vo.onrender.com/api/v1/admin/user/${id}`, formData, config,
+        await axios.put(`https://backend-h5vo.onrender.com/api/v1/admin/user/${id}`, formData,
         {
             headers:{
                 authorization: localStorage.getItem('token')
