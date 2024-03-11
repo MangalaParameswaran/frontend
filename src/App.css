@@ -818,6 +818,9 @@ ul.CTAs a {
   .desktop-only {
       display: none;
   }
+  .table-body {
+    font-size: xx-small;
+}
 }
 
 

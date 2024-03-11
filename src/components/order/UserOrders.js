@@ -72,7 +72,7 @@ export default function UserOrders () {
             <h1 className='mt-5 text-center'>My Orders</h1>
             <hr/> 
             <MDBDataTable
-                className='px-3'
+                className='px-3 table-body'
                 bordered
                 striped
                 hover
