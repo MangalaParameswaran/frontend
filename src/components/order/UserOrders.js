@@ -22,7 +22,7 @@ export default function UserOrders () {
                     sort: "asc"
                 },
                 {
-                    label: "Number of Items",
+                    label: "Quantity",
                     field: 'numOfItems',
                     sort: "asc"
                 },
