@@ -26,6 +26,7 @@ export default function UpdateUser () {
         formData.append('email' , email);
         formData.append('role' , role);
         dispatch(updateUser(userId, formData))
+        // console.log(e);
         // setTimeout(() => {
         //     navigate('/admin/users')
         // }, 1000);
