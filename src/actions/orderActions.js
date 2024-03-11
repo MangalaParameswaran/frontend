@@ -34,7 +34,13 @@ export const userOrders = async(dispatch) => {
 export const orderDetail = id => async(dispatch) => {
     try {
        dispatch(orderDetailRequest())
-       const {data} = await axios.get(`https://backend-h5vo.onrender.com/api/v1/order/${id}`)
+       const {data} = await axios.get(`https://backend-h5vo.onrender.com/api/v1/order/${id}`,
+       {
+        headers:{
+            authorization:localStorage.getItem('token')
+        }
+    }
+       )
        dispatch(orderDetailSuccess(data))
     } catch (error) {
         dispatch(orderDetailFail(error.response.data.message))
