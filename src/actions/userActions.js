@@ -246,7 +246,13 @@ export const updateUser = (id, formData) => async (dispatch) => {
                     authorization: localStorage.getItem('token')
                 }
         }
-        await axios.put(`https://backend-h5vo.onrender.com/api/v1/admin/user/${id}`, formData, config);
+        await axios.put(`https://backend-h5vo.onrender.com/api/v1/admin/user/${id}`, formData, config,
+        {
+            headers:{
+                authorization: localStorage.getItem('token')
+            }
+        }
+        );
         dispatch(updateUserSuccess())
     } catch (error) {
         dispatch(updateUserFail(error.response.data.message))

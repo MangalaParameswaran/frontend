@@ -90,11 +90,11 @@ export default function UpdateOrder () {
     
     
                             <h4 className="my-4">Order Items:</h4>
-    
+
                             <hr />
                             <div className="cart-item my-1">
-                                {orderItems && orderItems.map(item => (
-                                    <div className="row my-5">
+                                {orderItems && orderItems.map((item,i) => (
+                                    <div className="row my-5" key={i}>
                                         <div className="col-4 col-lg-2">
                                             <img src={item.image} alt={item.name} height="45" width="65" />
                                         </div>

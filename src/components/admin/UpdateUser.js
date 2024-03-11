@@ -17,7 +17,7 @@ export default function UpdateUser () {
     const {  user:authUser } = useSelector( state => state.authState)
 
     const dispatch = useDispatch();
-    const navigate=useNavigate()
+    // const navigate=useNavigate()
 
     const submitHandler = (e) => {
         e.preventDefault();
@@ -26,7 +26,9 @@ export default function UpdateUser () {
         formData.append('email' , email);
         formData.append('role' , role);
         dispatch(updateUser(userId, formData))
-        navigate('/admin/dashboard')
+        // setTimeout(() => {
+        //     navigate('/admin/users')
+        // }, 1000);
 
     }
 
