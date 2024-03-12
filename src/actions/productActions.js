@@ -61,6 +61,7 @@ export const createReview = reviewData => async (dispatch) => {
             }
         }
         const { data }  =  await axios.put(`https://backend-h5vo.onrender.com/api/v1/review`,reviewData, config);
+        // console.log();
         dispatch(createReviewSuccess(data))
     } catch (error) {
         //handle error

@@ -144,7 +144,7 @@ export default function ProductDetail () {
                     </button> :
                     <div className="alert alert-danger mt-5"> Login to Post Review</div>
                     }
-                    
+                    {/* REVIEW PART */}
                     <div className="row mt-2 mb-5">
                         <div className="rating w-50">
                             <Modal show={show} onHide={handleClose}>
