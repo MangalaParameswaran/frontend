@@ -36,29 +36,13 @@ const HomeBackV = () => {
        </div>
        <div className="row d-flex justify-content-center">
        <marquee behavior="scroll" direction="right" scrollamount="12">
-       <div className="col-4 my-2">
-          <div className="row">
-            <div className="col-3"><i className="fa-solid fa-truck  text-danger"></i></div>
-            <div className="col-9 text-dark">Free Delivery</div>
+       <div className="col-12 my-2">
+          <div>
+            <i className="fa-solid fa-truck  text-danger"></i>&nbsp; Free Delivery &nbsp; &nbsp;&nbsp;  <i className="fa-solid fa-money-check-dollar  text-danger"></i>&nbsp; Cash On Delivery available &nbsp; &nbsp; &nbsp; <i className="fa-solid fa-person-walking-arrow-loop-left text-danger"></i>&nbsp; 
+            Easy Return
           </div>
         </div>
-       </marquee>&nbsp; &nbsp;
-       <marquee behavior="scroll" direction="right" scrollamount="12">
-       <div className="col-4 my-2">
-          <div className="row">
-            <div className="col-3"><i className="fa-solid fa-money-check-dollar  text-danger"></i></div>
-            <div className="col-9 text-dark">Cash On Delivery available</div>
-          </div>
-        </div>
-       </marquee> &nbsp; &nbsp;
-        <marquee behavior="scroll" direction="right" scrollamount="12">
-        <div className="col-4 my-2">
-            <div className="row">
-              <div className="col-3"><i className="fa-solid fa-person-walking-arrow-loop-left text-danger"></i></div>
-              <div className="col-9 text-dark">Easy Return</div>
-            </div>
-        </div>
-        </marquee>
+       </marquee>
         </div>
         </div>
        </div>
