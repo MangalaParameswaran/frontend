@@ -4,7 +4,7 @@ const HomeBackV = () => {
 
   return <>
   {/*SCEOOL */}
-  <marquee behavior="scroll" direction="right" scrollamount="12" className='my-5 mt-5' >
+  <marquee behavior="scroll" direction="right" scrollamount="12" className='my-5' >
 <img src="https://t3.ftcdn.net/jpg/07/05/55/42/360_F_705554218_FdddFdwjxN7XE2Ld5PQ72MqkwcCbu8k9.jpg" alt="Prosthetic world" style={{height:"20em", width:"40em", borderRadius:'1em'}} /> &nbsp; &nbsp;
 <img src="https://st4.depositphotos.com/1518767/29336/i/450/depositphotos_293361394-stock-photo-side-view-caucasian-active-senior.jpg" alt="Prosthetic world" style={{height:"20em", width:"40em", borderRadius:'1em'}} /> &nbsp; &nbsp;
 <img src="https://images.pexels.com/photos/6111595/pexels-photo-6111595.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Prosthetic world" style={{height:"20em", width:"40em", borderRadius:'1em'}} /> &nbsp; &nbsp;
@@ -35,24 +35,30 @@ const HomeBackV = () => {
         </div>
        </div>
        <div className="row d-flex justify-content-center">
-        <div className="col-4 my-2">
+       <marquee behavior="scroll" direction="right" scrollamount="12">
+       <div className="col-4 my-2">
           <div className="row">
             <div className="col-3"><i className="fa-solid fa-truck  text-danger"></i></div>
             <div className="col-9 text-dark">Free Delivery</div>
           </div>
         </div>
-        <div className="col-4 my-2">
+       </marquee>&nbsp; &nbsp;
+       <marquee behavior="scroll" direction="right" scrollamount="12">
+       <div className="col-4 my-2">
           <div className="row">
             <div className="col-3"><i className="fa-solid fa-money-check-dollar  text-danger"></i></div>
             <div className="col-9 text-dark">Cash On Delivery available</div>
           </div>
         </div>
+       </marquee> &nbsp; &nbsp;
+        <marquee behavior="scroll" direction="right" scrollamount="12">
         <div className="col-4 my-2">
             <div className="row">
               <div className="col-3"><i className="fa-solid fa-person-walking-arrow-loop-left text-danger"></i></div>
               <div className="col-9 text-dark">Easy Return</div>
             </div>
         </div>
+        </marquee>
         </div>
         </div>
        </div>
