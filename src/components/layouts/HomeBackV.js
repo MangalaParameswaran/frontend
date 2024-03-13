@@ -3,6 +3,16 @@
 const HomeBackV = () => {
 
   return <>
+  {/*SCEOOL */}
+  <marquee behavior="scroll" direction="right" scrollamount="12" >
+<img src="https://t3.ftcdn.net/jpg/07/05/55/42/360_F_705554218_FdddFdwjxN7XE2Ld5PQ72MqkwcCbu8k9.jpg" alt="Prosthetic world" style={{height:"20em", width:"40em", borderRadius:'1em'}} /> &nbsp; &nbsp;
+<img src="https://st4.depositphotos.com/1518767/29336/i/450/depositphotos_293361394-stock-photo-side-view-caucasian-active-senior.jpg" alt="Prosthetic world" style={{height:"20em", width:"40em", borderRadius:'1em'}} /> &nbsp; &nbsp;
+<img src="https://images.pexels.com/photos/6111595/pexels-photo-6111595.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Prosthetic world" style={{height:"20em", width:"40em", borderRadius:'1em'}} /> &nbsp; &nbsp;
+<img src="https://media.istockphoto.com/id/1193074238/photo/technological-prosthetic-robot-arm-is-tested-by-two-professional-development-engineers-in-a.jpg?s=612x612&w=0&k=20&c=JcTyKSb4wKcxM5dT78vtEr68E9Kvm2ZU-oj4QnjP5D8=" alt="Prosthetic world" style={{height:"20em", width:"40em", borderRadius:'1em'}} /> &nbsp; &nbsp;
+<img src="https://media.istockphoto.com/id/1365532807/photo/disabled-athlete-man-with-prosthetic-leg-starting-to-run-at-the-beach-on-a-treadmill-outdoors.jpg?s=612x612&w=0&k=20&c=gOJr94IR6rSHkRktrO5v9Dp8Rr6ybfothxVgglwplXM=" alt="Prosthetic world" style={{height:"20em", width:"40em", borderRadius:'1em'}} /> &nbsp; &nbsp;
+</marquee>
+
+
       <div className="container bg-video my-4">
   <div className="row">
     <div className="col-11 col-xl-7 col-lg-8 col-md-10 mx-auto">
@@ -15,7 +25,7 @@ const HomeBackV = () => {
       <h2 className="v-hd text-center mb" style={{fontStyle:'italic'}}>PROSTHETIC  <i className="fa-brands fa-wordpress-simple"></i>ORLD</h2>
       </div>
       <div data-aos="fade-down-left">
-      <p className="text-dark my-4 fs-6 fw-bold  text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, culpa ratione quidem veritatis itaque  similique dolor accusamus reprehenderit laborum officia nemo est voluptas pariatur ea quam tempora laboriosam adipisci.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, culpa ratione quidem veritatis itaque  similique dolor accusamus.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, culpa ratione quidem veritatis itaque  similique dolor accusamus. Magnam, culpa ratione quidem veritatis itaque  similique dolor accusamus.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, culpa ratione quidem veritatis itaque  similique dolor accusamus. Magnam, culpa ratione quidem veritatis itaque  similique dolor accusamus.Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      <p className="text-dark my-4 fs-6 fw-bold  text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, culpa ratione quidem veritatis itaque  similique dolor accusamus reprehenderit laborum officia nemo est voluptas pariatur ea quam tempora laboriosam adipisci.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, culpa ratione quidem veritatis itaque  similique dolor accusamus.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, culpa ratione quidem veritatis itaque  similique dolor accusamus. Magnam, culpa ratione similique dolor accusamus.Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
       </div>
       <div className="row text-dark my-4">
         <div className="col">

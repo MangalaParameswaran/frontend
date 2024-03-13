@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
 * {
-  font-family: cursive;
+  font-family: "Acme", sans-serif;
 }
 html,
 body {
