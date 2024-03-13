@@ -32,7 +32,7 @@ export default function Product ({product, col}) {
                 className="card-img-top mx-auto"
                 src={product.images[0].image}
                 alt={product.name}
-                style={{borderRadius:'1em', height:"35vh", width:"85%", borderRadius:"1em"}}
+                style={{borderRadius:'1em', height:"35vh", width:"89%", borderRadius:"1em"}}
                 />}
                 <div className="card-body d-flex flex-column">
                 <h5 className="card-title">
