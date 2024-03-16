@@ -6,11 +6,11 @@ const HomeBackV = () => {
   {/*SCEOOL */}
   <marquee behavior="scroll" direction="right" scrollamount="12" className='my-3' >
  <span style={{color:"red"}}><i className="fa-solid fa-truck"></i> &nbsp; Free Shipping </span>
- &nbsp; &nbsp;
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
  <span style={{color:"red"}}><i className="fa-solid fa-arrows-rotate"></i> &nbsp; Easy Returns </span>
- &nbsp; &nbsp;
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
  <span style={{color:"red"}}><i className="fa-solid fa-shield-halved"></i> &nbsp; Secure Payment </span>
- &nbsp; &nbsp;
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
  <span style={{color:"red"}}><i className="fa-solid fa-hand-holding-dollar"></i> &nbsp; Back Guarantee </span>
 </marquee>
 <hr/>
