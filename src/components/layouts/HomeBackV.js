@@ -5,13 +5,13 @@ const HomeBackV = () => {
   return <>
   {/*SCEOOL */}
   <marquee behavior="scroll" direction="right" scrollamount="12" className='my-3' >
- <span style={{color:"red"}}><i className="fa-solid fa-truck"></i> &nbsp; Free Shipping </span>
+ <span style={{color:"rgb(52,58,64)", fontWeight:"bold"}}><i className="fa-solid fa-truck fs-3"  style={{color:"red", fontWeight:"bold"}}></i> &nbsp; Free Shipping </span>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
- <span style={{color:"red"}}><i className="fa-solid fa-arrows-rotate"></i> &nbsp; Easy Returns </span>
+ <span style={{color:"rgb(52,58,64)", fontWeight:"bold"}}><i className="fa-solid fa-arrows-rotate  fs-3"  style={{color:"red", fontWeight:"bold"}}></i> &nbsp; Easy Returns </span>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
- <span style={{color:"red"}}><i className="fa-solid fa-shield-halved"></i> &nbsp; Secure Payment </span>
+ <span style={{color:"rgb(52,58,64)", fontWeight:"bold"}}><i className="fa-solid fa-shield-halved fs-3"  style={{color:"red", fontWeight:"bold"}}></i> &nbsp; Secure Payment </span>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
- <span style={{color:"red"}}><i className="fa-solid fa-hand-holding-dollar"></i> &nbsp; Back Guarantee </span>
+ <span style={{color:"rgb(52,58,64)", fontWeight:"bold"}}><i className="fa-solid fa-hand-holding-dollar fs-3"  style={{color:"red", fontWeight:"bold"}}></i> &nbsp; Back Guarantee </span>
 </marquee>
 <hr/>
   <marquee behavior="scroll" direction="right" scrollamount="12" className='my-5' >
