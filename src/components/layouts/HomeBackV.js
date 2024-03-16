@@ -4,6 +4,16 @@ const HomeBackV = () => {
 
   return <>
   {/*SCEOOL */}
+  <marquee behavior="scroll" direction="right" scrollamount="12" className='my-3' >
+ <span style={{color:"red"}}><i className="fa-solid fa-truck"></i> &nbsp; Free Shipping </span>
+ &nbsp; &nbsp;
+ <span style={{color:"red"}}><i className="fa-solid fa-arrows-rotate"></i> &nbsp; Easy Returns </span>
+ &nbsp; &nbsp;
+ <span style={{color:"red"}}><i className="fa-solid fa-shield-halved"></i> &nbsp; Secure Payment </span>
+ &nbsp; &nbsp;
+ <span style={{color:"red"}}><i className="fa-solid fa-hand-holding-dollar"></i> &nbsp; Back Guarantee </span>
+</marquee>
+<hr/>
   <marquee behavior="scroll" direction="right" scrollamount="12" className='my-5' >
 <img src="https://t3.ftcdn.net/jpg/07/05/55/42/360_F_705554218_FdddFdwjxN7XE2Ld5PQ72MqkwcCbu8k9.jpg" alt="Prosthetic world" style={{height:"20em", width:"40em", borderRadius:'1em'}} /> &nbsp; &nbsp;
 <img src="https://st4.depositphotos.com/1518767/29336/i/450/depositphotos_293361394-stock-photo-side-view-caucasian-active-senior.jpg" alt="Prosthetic world" style={{height:"20em", width:"40em", borderRadius:'1em'}} /> &nbsp; &nbsp;
