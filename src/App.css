@@ -816,9 +816,8 @@ ul.CTAs a {
   width: 100% !important;
 }
 @media (max-width: 768px) {
-  /* Hide the "Order ID" column on mobile screens */
-  .mdbreact-table .desktop-only {
-      display: none !important;
+  .mdbreact-table  .desktop-only {
+    display: none !important;
   }
   .table-body {
     font-size: xx-small;
